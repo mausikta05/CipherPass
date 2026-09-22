@@ -1,13 +1,13 @@
 # 🛡️ CipherPass: Zero-Knowledge Confidential Credentials & Private Allowlist Protocol
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-priva--pass--mocha.vercel.app-8b5cf6?style=flat-square&logo=vercel)](https://priva-pass-mocha.vercel.app/)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-cipher--pass--delta.vercel.app-8b5cf6?style=flat-square&logo=vercel)](https://cipher-pass-delta.vercel.app/)
 [![Demo Video](https://img.shields.io/badge/Demo_Video-Watch_Walkthrough-ec4899?style=flat-square&logo=googlephotos)](https://photos.app.goo.gl/8cQfGT4vxdVdxT1D9)
 [![Midnight Network](https://img.shields.io/badge/Network-Midnight_Preprod-06b6d4?style=flat-square&logo=blockchain)](https://preprod.midnight.network)
 [![Smart Contract](https://img.shields.io/badge/Contract-Compact_v0.20+-70FFBE?style=flat-square)](contract/priva_pass.compact)
 [![Tests](https://img.shields.io/badge/Tests-5%2F5_Passing-10b981?style=flat-square)](tests/priva_pass.test.ts)
 [![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub_Actions_Passing-10b981?style=flat-square&logo=githubactions)](https://github.com/mausikta05/CipherPass/actions)
 
-> 🚀 **Live dApp Website**: **[https://priva-pass-mocha.vercel.app/](https://priva-pass-mocha.vercel.app/)**  
+> 🚀 **Live dApp Website**: **[https://cipher-pass-delta.vercel.app/](https://cipher-pass-delta.vercel.app/)**  
 > 📹 **Interactive Demo Video**: **[https://photos.app.goo.gl/8cQfGT4vxdVdxT1D9](https://photos.app.goo.gl/8cQfGT4vxdVdxT1D9)**
 
 > **Production-Grade Midnight Network Decentralized Application (dApp)**  
@@ -20,7 +20,7 @@
 | Parameter | Value |
 |---|---|
 | **Contract Name** | `CipherPassProtocol` / `Gatecheck` |
-| **Live Web Application** | **[https://priva-pass-mocha.vercel.app/](https://priva-pass-mocha.vercel.app/)** |
+| **Live Web Application** | **[https://cipher-pass-delta.vercel.app/](https://cipher-pass-delta.vercel.app/)** |
 | **Demo Video Walkthrough** | **[https://photos.app.goo.gl/8cQfGT4vxdVdxT1D9](https://photos.app.goo.gl/8cQfGT4vxdVdxT1D9)** |
 | **Deployed Contract Address** | `0x18ddd27cf8795ae5dc0cc5ced5fdd27992e03fd9e0fa12f7ed1a59064d2c0b33` |
 | **Midnight Explorer Link** | **[https://preprod.midnightexplorer.com/contracts/0x18ddd27cf8795ae5dc0cc5ced5fdd27992e03fd9e0fa12f7ed1a59064d2c0b33](https://preprod.midnightexplorer.com/contracts/0x18ddd27cf8795ae5dc0cc5ced5fdd27992e03fd9e0fa12f7ed1a59064d2c0b33)** |
@@ -229,7 +229,7 @@ Every commit and pull request triggers an automated GitHub Actions pipeline ([`.
 | **Author / Developer** | [mausikta05](https://github.com/mausikta05) |
 | **GitHub Profile** | [https://github.com/mausikta05](https://github.com/mausikta05) |
 | **Project Repository** | [https://github.com/mausikta05/CipherPass](https://github.com/mausikta05/CipherPass) |
-| **Live Web App (Vercel)** | [https://priva-pass-mocha.vercel.app/](https://priva-pass-mocha.vercel.app/) |
+| **Live Web App (Vercel)** | [https://cipher-pass-delta.vercel.app/](https://cipher-pass-delta.vercel.app/) |
 | **Demo Video Walkthrough** | [https://photos.app.goo.gl/8cQfGT4vxdVdxT1D9](https://photos.app.goo.gl/8cQfGT4vxdVdxT1D9) |
 | **Target Network** | Midnight Preprod Testnet |
 | **Contract Language** | Midnight Compact (`v0.20+`) |
