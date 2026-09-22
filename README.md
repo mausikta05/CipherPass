@@ -5,7 +5,7 @@
 [![Midnight Network](https://img.shields.io/badge/Network-Midnight_Preprod-06b6d4?style=flat-square&logo=blockchain)](https://preprod.midnight.network)
 [![Smart Contract](https://img.shields.io/badge/Contract-Compact_v0.20+-70FFBE?style=flat-square)](contract/priva_pass.compact)
 [![Tests](https://img.shields.io/badge/Tests-5%2F5_Passing-10b981?style=flat-square)](tests/priva_pass.test.ts)
-[![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub_Actions_Passing-10b981?style=flat-square&logo=githubactions)](https://github.com/mausikta05/PrivaPass/actions)
+[![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub_Actions_Passing-10b981?style=flat-square&logo=githubactions)](https://github.com/mausikta05/CipherPass/actions)
 
 > 🚀 **Live dApp Website**: **[https://priva-pass-mocha.vercel.app/](https://priva-pass-mocha.vercel.app/)**  
 > 📹 **Interactive Demo Video**: **[https://photos.app.goo.gl/8cQfGT4vxdVdxT1D9](https://photos.app.goo.gl/8cQfGT4vxdVdxT1D9)**
@@ -159,8 +159,8 @@ Built with **Next.js (App Router)**, **Tailwind CSS**, and **Lucide Icons** adhe
 
 ```bash
 # 1. Clone repository
-git clone https://github.com/mausikta05/PrivaPass.git
-cd PrivaPass
+git clone https://github.com/mausikta05/CipherPass.git
+cd CipherPass
 
 # 2. Install dependencies
 npm install
@@ -228,7 +228,7 @@ Every commit and pull request triggers an automated GitHub Actions pipeline ([`.
 |---|---|
 | **Author / Developer** | [mausikta05](https://github.com/mausikta05) |
 | **GitHub Profile** | [https://github.com/mausikta05](https://github.com/mausikta05) |
-| **Project Repository** | [https://github.com/mausikta05/PrivaPass](https://github.com/mausikta05/PrivaPass) |
+| **Project Repository** | [https://github.com/mausikta05/CipherPass](https://github.com/mausikta05/CipherPass) |
 | **Live Web App (Vercel)** | [https://priva-pass-mocha.vercel.app/](https://priva-pass-mocha.vercel.app/) |
 | **Demo Video Walkthrough** | [https://photos.app.goo.gl/8cQfGT4vxdVdxT1D9](https://photos.app.goo.gl/8cQfGT4vxdVdxT1D9) |
 | **Target Network** | Midnight Preprod Testnet |
