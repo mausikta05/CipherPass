@@ -43,6 +43,11 @@
 
 ## 🚀 1. Level-3 Product Proposal & Hackathon Submission
 
+> 📄 **Official Milestone Requirement**: **Product proposal (from the idea list) submitted for approval**  
+> 🏷️ **Ecosystem Track**: Decentralized Identity, Privacy-Preserving Allowlist Gating & Confidential Credentials  
+> 📌 **Submission Status**: ✅ **Submitted for Approval**  
+> 📑 **Complete Proposal Document**: **[PROPOSAL.md](PROPOSAL.md)**
+
 ### 📌 Project Name: **CipherPass**
 ### 💡 Core Concept
 **CipherPass** is a privacy-preserving credential verification and private allowlist protocol engineered natively on the **Midnight Network**. 
