@@ -12,7 +12,7 @@ try {
   setNetworkId('preprod');
 } catch {}
 
-export const DEPLOYED_CONTRACT_ADDRESS = process.env.NEXT_PUBLIC_CONTRACT_ADDRESS || 'f625ba69bc3e3eff8f7bd53a9a239f3585a92aafd338d10da8a7f52d9daac84d';
+export const DEPLOYED_CONTRACT_ADDRESS = process.env.NEXT_PUBLIC_CONTRACT_ADDRESS || '18ddd27cf8795ae5dc0cc5ced5fdd27992e03fd9e0fa12f7ed1a59064d2c0b33';
 export const PREPROD_INDEXER_URI = process.env.NEXT_PUBLIC_INDEXER_URI || 'https://indexer.preprod.midnight.network/api/v4/graphql';
 export const PREPROD_INDEXER_WS_URI = process.env.NEXT_PUBLIC_INDEXER_WS_URI || 'wss://indexer.preprod.midnight.network/api/v4/graphql/ws';
 export const PREPROD_NODE_URI = process.env.NEXT_PUBLIC_NODE_URI || 'https://rpc.preprod.midnight.network';

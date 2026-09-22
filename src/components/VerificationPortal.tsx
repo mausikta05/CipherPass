@@ -97,7 +97,7 @@ export const VerificationPortal: React.FC<VerificationPortalProps> = ({
               type={showPasskey ? 'text' : 'password'}
               value={passkey}
               onChange={(e) => setPasskey(e.target.value)}
-              placeholder="e.g. PRIVAPASS_GENESIS_SECRET_ALPHA_7749"
+              placeholder="e.g. CIPHERPASS_GENESIS_SECRET_ALPHA_7749"
               required
               className="w-full px-4 py-3.5 rounded-xl glass-input text-sm text-gray-100 placeholder-gray-500 font-mono pr-12 focus:ring-1 focus:ring-violet-500"
             />

@@ -1,5 +1,5 @@
 // ============================================================================
-// PrivaPass - Zero-Knowledge Confidential Credentials & Private Allowlist Protocol
+// CipherPass - Zero-Knowledge Confidential Credentials & Private Allowlist Protocol
 // ----------------------------------------------------------------------------
 // Canonical Midnight Compact Smart Contract
 // ============================================================================
@@ -23,16 +23,16 @@ constructor(initialRoot: Bytes<32>) {
 }
 
 export circuit publishAllowlist(newRoot: Bytes<32>): [] {
-  assert(ownPublicKey() == issuer, "PrivaPass: Only the issuer may update the allowlist root");
+  assert(ownPublicKey() == issuer, "CipherPass: Only the issuer may update the allowlist root");
   allowlistRoot = disclose(newRoot);
 }
 
 circuit leafOf(secret: Bytes<32>): Bytes<32> {
-  return persistentHash<Vector<2, Bytes<32>>>([pad(32, "privapass:leaf"), secret]);
+  return persistentHash<Vector<2, Bytes<32>>>([pad(32, "cipherpass:leaf"), secret]);
 }
 
 circuit nullifierOf(secret: Bytes<32>): Bytes<32> {
-  return persistentHash<Vector<2, Bytes<32>>>([pad(32, "privapass:null"), secret]);
+  return persistentHash<Vector<2, Bytes<32>>>([pad(32, "cipherpass:null"), secret]);
 }
 
 circuit merkleRootFrom(
@@ -55,10 +55,10 @@ export circuit verifyAccess(): [] {
   const directions = pathDirections();
 
   const candidateRoot = merkleRootFrom(leaf, path, directions);
-  assert(candidateRoot == allowlistRoot, "PrivaPass: Not a member of the current allowlist");
+  assert(candidateRoot == allowlistRoot, "CipherPass: Not a member of the current allowlist");
 
   const nullifier = nullifierOf(secret);
-  assert(!nullifiers.member(disclose(nullifier)), "PrivaPass: This credential has already been verified");
+  assert(!nullifiers.member(disclose(nullifier)), "CipherPass: This credential has already been verified");
 
   nullifiers.insert(disclose(nullifier));
   accessGranted.increment(1);

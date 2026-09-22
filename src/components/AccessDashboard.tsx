@@ -66,7 +66,7 @@ export const AccessDashboard: React.FC<AccessDashboardProps> = ({
               <h2 className={`text-2xl sm:text-3xl font-extrabold tracking-tight ${
                 isVerified ? 'text-white text-glow-cyan' : 'text-gray-200'
               }`}>
-                {isVerified ? 'PrivaPass Verified Member' : 'Confidential Gate Locked'}
+                {isVerified ? 'CipherPass Verified Member' : 'Confidential Gate Locked'}
               </h2>
 
               <p className="text-xs sm:text-sm text-gray-400 mt-1 max-w-lg">

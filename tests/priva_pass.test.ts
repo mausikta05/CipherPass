@@ -3,7 +3,7 @@ import { computeCommitmentHash, PRESET_ALLOWLIST_ENTRIES } from '../src/lib/cryp
 import { midnightService, DEPLOYED_CONTRACT_ADDRESS, PREPROD_INDEXER_URI, PREPROD_NODE_URI } from '../src/lib/midnight';
 import { PrivateWitnessData } from '../src/lib/types';
 
-describe('PrivaPass Compact Circuit & Midnight.js Integration Test Suite', () => {
+describe('CipherPass Compact Circuit & Midnight.js Integration Test Suite', () => {
 
   it('1. Credential Privacy: Valid secret passkey & salt generates valid ZK proof and updates public counter', async () => {
     const genesisEntry = PRESET_ALLOWLIST_ENTRIES[0];
@@ -50,7 +50,7 @@ describe('PrivaPass Compact Circuit & Midnight.js Integration Test Suite', () =>
   });
 
   it('4. Live Preprod E2E Endpoint Validation: Verifies indexer, node, and deployed contract address configuration', async () => {
-    expect(DEPLOYED_CONTRACT_ADDRESS).toBe('f625ba69bc3e3eff8f7bd53a9a239f3585a92aafd338d10da8a7f52d9daac84d');
+    expect(DEPLOYED_CONTRACT_ADDRESS).toBe('18ddd27cf8795ae5dc0cc5ced5fdd27992e03fd9e0fa12f7ed1a59064d2c0b33');
     expect(PREPROD_INDEXER_URI).toContain('indexer.preprod.midnight.network');
     expect(PREPROD_NODE_URI).toContain('rpc.preprod.midnight.network');
 

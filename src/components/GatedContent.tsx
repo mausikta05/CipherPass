@@ -33,7 +33,7 @@ export const GatedContent: React.FC<GatedContentProps> = ({
             Gated VIP Area Restricted
           </h3>
           <p className="text-xs sm:text-sm text-gray-400 mb-6 leading-relaxed">
-            This module requires a verified Zero-Knowledge PrivaPass proof. Submit your confidential credentials in the portal above to unlock anonymous DAO governance and confidential intel.
+            This module requires a verified Zero-Knowledge CipherPass proof. Submit your confidential credentials in the portal above to unlock anonymous DAO governance and confidential intel.
           </p>
           <div className="px-3.5 py-1.5 rounded-full bg-violet-950/60 border border-violet-800/40 text-violet-300 text-xs font-mono">
             Waiting for Compact <code className="text-violet-200">verifyAccess()</code> validation
@@ -52,7 +52,7 @@ export const GatedContent: React.FC<GatedContentProps> = ({
           <div className="flex items-center gap-2 mb-1">
             <Unlock className="w-4 h-4 text-emerald-400" />
             <span className="text-xs font-mono font-bold uppercase tracking-wider text-emerald-300">
-              UNLOCKED PRIVAPASS PORTAL
+              UNLOCKED CIPHERPASS PORTAL
             </span>
           </div>
           <h3 className="text-2xl font-bold text-white flex items-center gap-2">
@@ -114,7 +114,7 @@ export const GatedContent: React.FC<GatedContentProps> = ({
               </span>
             </div>
             <p className="text-xs sm:text-sm text-gray-300 leading-relaxed font-sans">
-              Welcome to the PrivaPass Genesis Council. As a verified confidential credential holder on Midnight Preprod, you possess zero-knowledge authorization to inspect private contract parameters, strategic liquidity milestones, and encrypted bridge endpoints.
+              Welcome to the CipherPass Genesis Council. As a verified confidential credential holder on Midnight Preprod, you possess zero-knowledge authorization to inspect private contract parameters, strategic liquidity milestones, and encrypted bridge endpoints.
             </p>
           </div>
 
@@ -209,7 +209,7 @@ export const GatedContent: React.FC<GatedContentProps> = ({
             </div>
           </div>
           <h4 className="text-lg font-bold text-white mb-1">
-            Midnight PrivaPass Verified Credential
+            Midnight CipherPass Verified Credential
           </h4>
           <p className="text-xs text-gray-400 max-w-md mx-auto mb-4 font-mono">
             ZK Authorization Token • Compact verifyAccess() • Proof Hash: {verificationResult?.proofHash}

@@ -1,4 +1,4 @@
-# 🛡️ PrivaPass: Zero-Knowledge Confidential Credentials & Private Allowlist Protocol
+# 🛡️ CipherPass: Zero-Knowledge Confidential Credentials & Private Allowlist Protocol
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-priva--pass--mocha.vercel.app-8b5cf6?style=flat-square&logo=vercel)](https://priva-pass-mocha.vercel.app/)
 [![Demo Video](https://img.shields.io/badge/Demo_Video-Watch_Walkthrough-ec4899?style=flat-square&logo=googlephotos)](https://photos.app.goo.gl/8cQfGT4vxdVdxT1D9)
@@ -19,11 +19,11 @@
 
 | Parameter | Value |
 |---|---|
-| **Contract Name** | `PrivaPassProtocol` / `Gatecheck` |
+| **Contract Name** | `CipherPassProtocol` / `Gatecheck` |
 | **Live Web Application** | **[https://priva-pass-mocha.vercel.app/](https://priva-pass-mocha.vercel.app/)** |
 | **Demo Video Walkthrough** | **[https://photos.app.goo.gl/8cQfGT4vxdVdxT1D9](https://photos.app.goo.gl/8cQfGT4vxdVdxT1D9)** |
-| **Deployed Contract Address** | `0xf625ba69bc3e3eff8f7bd53a9a239f3585a92aafd338d10da8a7f52d9daac84d` |
-| **Midnight Explorer Link** | **[https://preprod.midnightexplorer.com/contracts/0xf625ba69bc3e3eff8f7bd53a9a239f3585a92aafd338d10da8a7f52d9daac84d](https://preprod.midnightexplorer.com/contracts/0xf625ba69bc3e3eff8f7bd53a9a239f3585a92aafd338d10da8a7f52d9daac84d)** |
+| **Deployed Contract Address** | `0x18ddd27cf8795ae5dc0cc5ced5fdd27992e03fd9e0fa12f7ed1a59064d2c0b33` |
+| **Midnight Explorer Link** | **[https://preprod.midnightexplorer.com/contracts/0x18ddd27cf8795ae5dc0cc5ced5fdd27992e03fd9e0fa12f7ed1a59064d2c0b33](https://preprod.midnightexplorer.com/contracts/0x18ddd27cf8795ae5dc0cc5ced5fdd27992e03fd9e0fa12f7ed1a59064d2c0b33)** |
 | **Target Network** | Midnight Preprod Testnet |
 | **Deployment Pipeline** | Automated GitHub Actions (`.github/workflows/deploy.yml`) |
 | **Smart Contract Language** | **Midnight Compact (`v0.20+`)** |
@@ -34,18 +34,18 @@
 
 ## 🎥 Video Demonstration & Walkthrough
 
-[![PrivaPass Video Demo](https://img.shields.io/badge/🎬_Watch_Live_Demo-Google_Photos-8b5cf6?style=for-the-badge&logo=googlephotos&logoColor=white)](https://photos.app.goo.gl/8cQfGT4vxdVdxT1D9)
+[![CipherPass Video Demo](https://img.shields.io/badge/🎬_Watch_Live_Demo-Google_Photos-8b5cf6?style=for-the-badge&logo=googlephotos&logoColor=white)](https://photos.app.goo.gl/8cQfGT4vxdVdxT1D9)
 
-> 📹 **Live Demonstration**: [Click here to watch the full PrivaPass Zero-Knowledge DApp Video Walkthrough](https://photos.app.goo.gl/8cQfGT4vxdVdxT1D9)  
+> 📹 **Live Demonstration**: [Click here to watch the full CipherPass Zero-Knowledge DApp Video Walkthrough](https://photos.app.goo.gl/8cQfGT4vxdVdxT1D9)  
 > *Demonstrating Lace wallet connection, private witness isolation, in-browser ZK-SNARK proof generation, and automatic gated VIP portal unlocking.*
 
 ---
 
 ## 🚀 1. Level-3 Product Proposal & Hackathon Submission
 
-### 📌 Project Name: **PrivaPass**
+### 📌 Project Name: **CipherPass**
 ### 💡 Core Concept
-**PrivaPass** is a privacy-preserving credential verification and private allowlist protocol engineered natively on the **Midnight Network**. 
+**CipherPass** is a privacy-preserving credential verification and private allowlist protocol engineered natively on the **Midnight Network**. 
 
 Traditional blockchain allowlists and token-gated portals (e.g. on Ethereum or Solana) inherently expose every participant's wallet address, identity connections, and timing heuristics on a public ledger. This creates catastrophic privacy vulnerabilities for:
 1. **Accredited & Institutional Investors** who cannot disclose their fund addresses on public token sales.
@@ -53,7 +53,7 @@ Traditional blockchain allowlists and token-gated portals (e.g. on Ethereum or S
 3. **Enterprise & VIP Access Gates** requiring cryptographic proof of authorization without revealing business-sensitive identity vectors.
 
 ### 🔑 Solution
-PrivaPass solves this by utilizing **Zero-Knowledge Witness Isolation** via Midnight's **Compact** language:
+CipherPass solves this by utilizing **Zero-Knowledge Witness Isolation** via Midnight's **Compact** language:
 - Users supply their secret credential passkey and identity blinding salt locally into their client environment.
 - The Compact circuit (`verifyAccess`) mathematically checks the zero-knowledge commitment against the authorized allowlist root.
 - The smart contract deliberately exposes **only** the boolean authorization token (`disclose(true)`) and updates an anonymous verified entry counter on the public ledger.
@@ -63,7 +63,7 @@ PrivaPass solves this by utilizing **Zero-Knowledge Witness Isolation** via Midn
 
 ## 🔐 2. Cryptographic Privacy Model
 
-The core security thesis of PrivaPass relies on Midnight's **Strict Witness Sandboxing** and **Selective Ledger Disclosure**.
+The core security thesis of CipherPass relies on Midnight's **Strict Witness Sandboxing** and **Selective Ledger Disclosure**.
 
 ```mermaid
 flowchart TD
@@ -105,7 +105,7 @@ flowchart TD
 sequenceDiagram
     autonumber
     actor User as 👤 Credential Holder
-    participant UI as 💻 PrivaPass Web Portal
+    participant UI as 💻 CipherPass Web Portal
     participant Circuit as ⚡ Compact ZK Circuit
     participant Wallet as 🔑 Lace Midnight Wallet
     participant Preprod as 🌐 Midnight Preprod Ledger
@@ -159,7 +159,7 @@ Built with **Next.js (App Router)**, **Tailwind CSS**, and **Lucide Icons** adhe
 
 ```bash
 # 1. Clone repository
-git clone https://github.com/your-username/PrivaPass.git
+git clone https://github.com/mausikta05/PrivaPass.git
 cd PrivaPass
 
 # 2. Install dependencies
@@ -177,16 +177,16 @@ npm test
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser to interact with the PrivaPass dApp.
+Open [http://localhost:3000](http://localhost:3000) in your browser to interact with the CipherPass dApp.
 
 ---
 
 ## 🧪 6. Automated Testing Suite (100% Passing)
 
-PrivaPass includes a comprehensive Vitest automated test suite verifying all Compact ZK circuit constraints, private witness isolation, and Preprod state assertions:
+CipherPass includes a comprehensive Vitest automated test suite verifying all Compact ZK circuit constraints, private witness isolation, and Preprod state assertions:
 
 <div align="center">
-  <img src="image.png" alt="PrivaPass 5 Passing Unit & Integration Tests" width="850" />
+  <img src="image.png" alt="CipherPass 5 Passing Unit & Integration Tests" width="850" />
   <p><em>Figure: Execution of 5 passing automated tests covering Zero-Knowledge Witness Isolation, Circuit Constraints, and Preprod State Assertions.</em></p>
 </div>
 
@@ -209,7 +209,7 @@ npm test
 Every commit and pull request triggers an automated GitHub Actions pipeline ([`.github/workflows/ci.yml`](.github/workflows/ci.yml)) validating Compact contract syntax, executing the 5-part Vitest test suite, and creating an optimized Next.js production build:
 
 <div align="center">
-  <img src="image-1.png" alt="PrivaPass GitHub Actions CI/CD Pipeline Passing" width="850" />
+  <img src="image-1.png" alt="CipherPass GitHub Actions CI/CD Pipeline Passing" width="850" />
   <p><em>Figure: Automated GitHub Actions CI/CD pipeline runs verifying build integrity, Compact smart contract syntax, and test suites.</em></p>
 </div>
 
@@ -241,4 +241,3 @@ Every commit and pull request triggers an automated GitHub Actions pipeline ([`.
 
 MIT License — Developed for the Midnight Network Ecosystem by [mausikta05](https://github.com/mausikta05).  
 Built with [Midnight Compact](https://docs.midnight.network) and [Next.js](https://nextjs.org).
-

@@ -1,8 +1,8 @@
 {
-  "name": "privapass",
+  "name": "cipherpass",
   "version": "1.0.0",
   "private": true,
-  "description": "PrivaPass - Zero-Knowledge Confidential Credentials & Private Allowlist Protocol on Midnight Network",
+  "description": "CipherPass - Zero-Knowledge Confidential Credentials & Private Allowlist Protocol on Midnight Network",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

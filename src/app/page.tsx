@@ -115,7 +115,7 @@ export default function Home() {
           </h1>
 
           <p className="text-sm sm:text-base text-gray-300 leading-relaxed max-w-2xl mx-auto">
-            PrivaPass allows users to prove membership in exclusive allowlists, accredited registries, and DAO tiers using private witnesses without ever revealing their real wallet address or secret passkey on-chain.
+            CipherPass allows users to prove membership in exclusive allowlists, accredited registries, and DAO tiers using private witnesses without ever revealing their real wallet address or secret passkey on-chain.
           </p>
         </section>
 
@@ -168,7 +168,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2">
             <Shield className="w-4 h-4 text-violet-400" />
-            <span className="font-semibold text-gray-200">PrivaPass Protocol</span>
+            <span className="font-semibold text-gray-200">CipherPass Protocol</span>
             <span className="text-gray-500">|</span>
             <span>Midnight Preprod Testnet (Compact v0.20.0)</span>
           </div>

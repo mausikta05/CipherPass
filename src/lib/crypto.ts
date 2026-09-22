@@ -1,5 +1,5 @@
 /**
- * PrivaPass Cryptographic Utility
+ * CipherPass Cryptographic Utility
  * Handles deterministic commitment computation matching Compact's persistent_hash
  */
 
@@ -72,7 +72,7 @@ export const PRESET_ALLOWLIST_ENTRIES = [
     id: 'pass-01',
     title: 'Genesis DAO Founding Member',
     tier: 'Genesis DAO Tier-1' as const,
-    passkey: 'PRIVAPASS_GENESIS_SECRET_ALPHA_7749',
+    passkey: 'CIPHERPASS_GENESIS_SECRET_ALPHA_7749',
     identitySalt: 'SALT_MIDNIGHT_VALIDATOR_NODE_01',
     commitment: '0x8f3c427a19e84b2c159841d7e26a38b1f5e6a98d34b17c2890e4f1a5b82c3d4e',
     badgeColor: 'text-violet-400 border-violet-500/40 bg-violet-500/10'
@@ -81,7 +81,7 @@ export const PRESET_ALLOWLIST_ENTRIES = [
     id: 'pass-02',
     title: 'Accredited Institutional Participant',
     tier: 'Accredited Investor' as const,
-    passkey: 'PRIVAPASS_ACCREDITED_SERIES_A_9921',
+    passkey: 'CIPHERPASS_ACCREDITED_SERIES_A_9921',
     identitySalt: 'SALT_INSTITUTIONAL_ESCROW_02',
     commitment: '0x3b7e9a1c5d8f20468e1b3d5f7a9c2e4b6d8a0c2e4f6a8b0d2e4f6a8b0c2d4e6f',
     badgeColor: 'text-cyber-cyan border-cyber-cyan/40 bg-cyber-cyan/10'
@@ -90,7 +90,7 @@ export const PRESET_ALLOWLIST_ENTRIES = [
     id: 'pass-03',
     title: 'Midnight Core Security Auditor',
     tier: 'Security Auditor' as const,
-    passkey: 'PRIVAPASS_ZK_AUDIT_KEY_HEX_3301',
+    passkey: 'CIPHERPASS_ZK_AUDIT_KEY_HEX_3301',
     identitySalt: 'SALT_FORMAL_VERIFICATION_NODE_03',
     commitment: '0x7e2d1a4f8c0b3e5a7d9f1c3e5b7a9d1f3b5e7a9c1d3f5a7b9c1d3e5f7a9b1c3d',
     badgeColor: 'text-cyber-emerald border-cyber-emerald/40 bg-cyber-emerald/10'
