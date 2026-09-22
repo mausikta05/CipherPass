@@ -1,7 +1,7 @@
 # 🛡️ CipherPass: Zero-Knowledge Confidential Credentials & Private Allowlist Protocol
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-cipher--pass--delta.vercel.app-8b5cf6?style=flat-square&logo=vercel)](https://cipher-pass-delta.vercel.app/)
-[![Demo Video](https://img.shields.io/badge/Demo_Video-Watch_Walkthrough-ec4899?style=flat-square&logo=googlephotos)](https://photos.app.goo.gl/8cQfGT4vxdVdxT1D9)
+[![Demo Video](https://img.shields.io/badge/Demo_Video-Watch_Walkthrough-ec4899?style=flat-square&logo=googlephotos)]([https://photos.app.goo.gl/8cQfGT4vxdVdxT1D9](https://drive.google.com/file/d/1jQn9VpgxNoPQ2zDuuT7dHUrMeO0rtoqp/view?usp=sharing))
 [![Midnight Network](https://img.shields.io/badge/Network-Midnight_Preprod-06b6d4?style=flat-square&logo=blockchain)](https://preprod.midnight.network)
 [![Smart Contract](https://img.shields.io/badge/Contract-Compact_v0.20+-70FFBE?style=flat-square)](contract/priva_pass.compact)
 [![Tests](https://img.shields.io/badge/Tests-5%2F5_Passing-10b981?style=flat-square)](tests/priva_pass.test.ts)
@@ -34,7 +34,7 @@
 
 ## 🎥 Video Demonstration & Walkthrough
 
-[![CipherPass Video Demo](https://img.shields.io/badge/🎬_Watch_Live_Demo-Google_Photos-8b5cf6?style=for-the-badge&logo=googlephotos&logoColor=white)](https://photos.app.goo.gl/8cQfGT4vxdVdxT1D9)
+[![CipherPass Video Demo](https://img.shields.io/badge/🎬_Watch_Live_Demo-Google_Photos-8b5cf6?style=for-the-badge&logo=googlephotos&logoColor=white)]([https://photos.app.goo.gl/8cQfGT4vxdVdxT1D9](https://drive.google.com/file/d/1jQn9VpgxNoPQ2zDuuT7dHUrMeO0rtoqp/view?usp=sharing))
 
 > 📹 **Live Demonstration**: [Click here to watch the full CipherPass Zero-Knowledge DApp Video Walkthrough](https://photos.app.goo.gl/8cQfGT4vxdVdxT1D9)  
 > *Demonstrating Lace wallet connection, private witness isolation, in-browser ZK-SNARK proof generation, and automatic gated VIP portal unlocking.*
@@ -191,7 +191,8 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to interact 
 CipherPass includes a comprehensive Vitest automated test suite verifying all Compact ZK circuit constraints, private witness isolation, and Preprod state assertions:
 
 <div align="center">
-  <img src="image.png" alt="CipherPass 5 Passing Unit & Integration Tests" width="850" />
+    <img width="1136" height="466" alt="Screenshot 2026-09-22 165726" src="https://github.com/user-attachments/assets/c642810c-2060-4db0-a08c-587dd5b33b2f" />
+
   <p><em>Figure: Execution of 5 passing automated tests covering Zero-Knowledge Witness Isolation, Circuit Constraints, and Preprod State Assertions.</em></p>
 </div>
 
@@ -214,7 +215,8 @@ npm test
 Every commit and pull request triggers an automated GitHub Actions pipeline ([`.github/workflows/ci.yml`](.github/workflows/ci.yml)) validating Compact contract syntax, executing the 5-part Vitest test suite, and creating an optimized Next.js production build:
 
 <div align="center">
-  <img src="image-1.png" alt="CipherPass GitHub Actions CI/CD Pipeline Passing" width="850" />
+    <img width="1891" height="941" alt="Screenshot 2026-09-22 170029" src="https://github.com/user-attachments/assets/3c075cef-3329-41db-8e3d-67b78473df75" />
+
   <p><em>Figure: Automated GitHub Actions CI/CD pipeline runs verifying build integrity, Compact smart contract syntax, and test suites.</em></p>
 </div>
 
