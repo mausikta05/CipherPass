@@ -1,14 +1,14 @@
 # 🛡️ CipherPass: Zero-Knowledge Confidential Credentials & Private Allowlist Protocol
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-cipher--pass--delta.vercel.app-8b5cf6?style=flat-square&logo=vercel)](https://cipher-pass-delta.vercel.app/)
-[![Demo Video](https://img.shields.io/badge/Demo_Video-Watch_Walkthrough-ec4899?style=flat-square&logo=googlephotos)]([https://photos.app.goo.gl/8cQfGT4vxdVdxT1D9](https://drive.google.com/file/d/1jQn9VpgxNoPQ2zDuuT7dHUrMeO0rtoqp/view?usp=sharing))
+[![Demo Video](https://img.shields.io/badge/Demo_Video-Watch_Walkthrough-ec4899?style=flat-square&logo=googlephotos)](https://drive.google.com/file/d/1jQn9VpgxNoPQ2zDuuT7dHUrMeO0rtoqp/view?usp=sharing)
 [![Midnight Network](https://img.shields.io/badge/Network-Midnight_Preprod-06b6d4?style=flat-square&logo=blockchain)](https://preprod.midnight.network)
 [![Smart Contract](https://img.shields.io/badge/Contract-Compact_v0.20+-70FFBE?style=flat-square)](contract/priva_pass.compact)
 [![Tests](https://img.shields.io/badge/Tests-5%2F5_Passing-10b981?style=flat-square)](tests/priva_pass.test.ts)
 [![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub_Actions_Passing-10b981?style=flat-square&logo=githubactions)](https://github.com/mausikta05/CipherPass/actions)
 
 > 🚀 **Live dApp Website**: **[https://cipher-pass-delta.vercel.app/](https://cipher-pass-delta.vercel.app/)**  
-> 📹 **Interactive Demo Video**: **[https://photos.app.goo.gl/8cQfGT4vxdVdxT1D9](https://photos.app.goo.gl/8cQfGT4vxdVdxT1D9)**
+> 📹 **Interactive Demo Video**: **[https://photos.app.goo.gl/8cQfGT4vxdVdxT1D9](https://drive.google.com/file/d/1jQn9VpgxNoPQ2zDuuT7dHUrMeO0rtoqp/view?usp=sharing)**
 
 > **Production-Grade Midnight Network Decentralized Application (dApp)**  
 > Built with **Midnight Compact**, **Midnight.js SDK**, **Lace Wallet Connector**, and **Next.js / Tailwind CSS**.
@@ -21,7 +21,7 @@
 |---|---|
 | **Contract Name** | `CipherPassProtocol` / `Gatecheck` |
 | **Live Web Application** | **[https://cipher-pass-delta.vercel.app/](https://cipher-pass-delta.vercel.app/)** |
-| **Demo Video Walkthrough** | **[https://photos.app.goo.gl/8cQfGT4vxdVdxT1D9](https://photos.app.goo.gl/8cQfGT4vxdVdxT1D9)** |
+| **Demo Video Walkthrough** | **[https://photos.app.goo.gl/8cQfGT4vxdVdxT1D9](https://drive.google.com/file/d/1jQn9VpgxNoPQ2zDuuT7dHUrMeO0rtoqp/view?usp=sharing)** |
 | **Deployed Contract Address** | `0x18ddd27cf8795ae5dc0cc5ced5fdd27992e03fd9e0fa12f7ed1a59064d2c0b33` |
 | **Midnight Explorer Link** | **[https://preprod.midnightexplorer.com/contracts/0x18ddd27cf8795ae5dc0cc5ced5fdd27992e03fd9e0fa12f7ed1a59064d2c0b33](https://preprod.midnightexplorer.com/contracts/0x18ddd27cf8795ae5dc0cc5ced5fdd27992e03fd9e0fa12f7ed1a59064d2c0b33)** |
 | **Target Network** | Midnight Preprod Testnet |
@@ -34,7 +34,7 @@
 
 ## 🎥 Video Demonstration & Walkthrough
 
-[![CipherPass Video Demo](https://img.shields.io/badge/🎬_Watch_Live_Demo-Google_Photos-8b5cf6?style=for-the-badge&logo=googlephotos&logoColor=white)]([https://photos.app.goo.gl/8cQfGT4vxdVdxT1D9](https://drive.google.com/file/d/1jQn9VpgxNoPQ2zDuuT7dHUrMeO0rtoqp/view?usp=sharing))
+[![CipherPass Video Demo](https://img.shields.io/badge/🎬_Watch_Live_Demo-Google_Photos-8b5cf6?style=for-the-badge&logo=googlephotos&logoColor=white)](https://photos.app.goo.gl/8cQfGT4vxdVdxT1D9](https://drive.google.com/file/d/1jQn9VpgxNoPQ2zDuuT7dHUrMeO0rtoqp/view?usp=sharing)
 
 > 📹 **Live Demonstration**: [Click here to watch the full CipherPass Zero-Knowledge DApp Video Walkthrough](https://photos.app.goo.gl/8cQfGT4vxdVdxT1D9)  
 > *Demonstrating Lace wallet connection, private witness isolation, in-browser ZK-SNARK proof generation, and automatic gated VIP portal unlocking.*
