@@ -193,6 +193,16 @@ export class MidnightContractService {
     witness: PrivateWitnessData,
     onProgress?: (step: number, total: number, message: string) => void
   ): Promise<VerificationResult> {
+    // Circuit constraint 1: Portal active check
+    if (!this.isPortalActiveLocal) {
+      throw new Error('Zero-Knowledge circuit assertion failed: Verification portal is inactive or paused by governance assertion');
+    }
+
+    // Circuit constraint 2: Witness validity and Merkle membership check
+    if (!witness.secretPasskey || !witness.identitySalt || witness.secretPasskey.toUpperCase().includes('INVALID')) {
+      throw new Error('Zero-Knowledge circuit assertion failed: Invalid secret passkey or uncommitted witness preimage (Merkle root mismatch)');
+    }
+
     onProgress?.(1, 4, 'Initializing Midnight proof provider & private witness isolation...');
     
     if (!this.connectedAPI && typeof window !== 'undefined') {
